@@ -21,3 +21,11 @@ else  {
 console.log("")
 console.log("montant total:", montant_totalA);
 console.log("budget:", budget_client);
+
+
+let t = 1;
+for (let t = 1;
+    t < 6;
+    t++) {
+console.log ("achat numero ",t)
+    };
