@@ -9,3 +9,10 @@ const montant_totalA = montant_cahier + montant_stylo;
 console.log ("montant cahier:", montant_cahier," FCFA");
 console.log ("montant stylo:",montant_stylo," FCFA" );
 console.log ("budget:",budget_client," FCFA");
+
+if (montant_totalA <= budget_client) {
+    console.log ("budget suffisant");
+} 
+else  {
+    console.log("achat insuffisant")
+}
