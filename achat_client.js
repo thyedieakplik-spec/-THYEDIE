@@ -16,3 +16,8 @@ if (montant_totalA <= budget_client) {
 else  {
     console.log("achat insuffisant")
 }
+
+
+console.log("")
+console.log("montant total:", montant_totalA);
+console.log("budget:", budget_client);
