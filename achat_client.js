@@ -6,3 +6,6 @@ const quantite_stylo = 3;
 const montant_cahier = prix_cahier * quantite_cahier;
 const montant_stylo = prix_stylo * quantite_stylo;
 const montant_totalA = montant_cahier + montant_stylo; 
+console.log ("montant cahier:", montant_cahier," FCFA");
+console.log ("montant stylo:",montant_stylo," FCFA" );
+console.log ("budget:",budget_client," FCFA");
